@@ -4,7 +4,7 @@ import copy
 
 try:
     # Import from egg
-    import matrixdriver.matrixdriver
+    from matrixdriver import matrixdriver
     print('Imported from egg')
 except Exception:
     # Import from egg

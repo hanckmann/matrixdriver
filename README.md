@@ -46,7 +46,7 @@ Note that more examples of this representation can be seen when starting the dri
 Some example code to send a frame to the 8x8 LED matrix:
 
     # import
-    import matrixdriver.matrixdriver
+    from matrixdriver import matrixdriver
     # usage example
     md = matrixdriver.MatrixDriver(0, 0)
     empty_frame = [[1 for _ in range(8)] for _ in range(8)]
