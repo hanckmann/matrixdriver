@@ -66,6 +66,14 @@ Some example code to send a frame to the 8x8 LED matrix:
     md.draw(iterations=3)
 
 
+## Example application imagedriver.py
+
+The example application reads all images from the images folder and will try to show these on the matrix. To get the example application working:
+
+    $ pip install -r requirements
+    $ python3 imagedriver.py
+
+
 ## Finally
 
 It would be great if you can use this for any of your projects, and I would be happy to hear how you used it.
