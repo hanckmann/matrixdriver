@@ -14,6 +14,11 @@ Development, updates, feature requests, etc. see [https://github.com/hanckmann/M
 
 The MatrixDriver class can be used to communicate with the LED matrix.
 
+Make sure you have installed the dependencies:
+
+    pip install -r requirements.txt
+
+
 ### Frame representation
 
 This driver uses a frame representation per color channel (red, green, blue).
